@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.2] (September 25 2021)
+
+**Added :**
+
+- The causes list
+
 ## [0.0.1] (September 24 2021)
 
 **Added :**
