@@ -5,6 +5,7 @@
 **Added :**
 
 - The causes list
+- Choosing random cause
 
 ## [0.0.1] (September 24 2021)
 

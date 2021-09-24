@@ -18,5 +18,9 @@ causes[15]="What did you type in wrong to get it to crash?"
 causes[16]="It must be a hardware problem."
 causes[17]="How is that possible?"
 causes[18]="It worked yesterday."
-causes[19]="It's never done taht before."
+causes[19]="It's never done that before."
 causes[20]="That's weird..."
+
+random_cause=$(($RANDOM % 20 + 1 ))
+
+echo ${causes[$random_cause]}
