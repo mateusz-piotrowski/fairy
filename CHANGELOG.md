@@ -11,6 +11,7 @@
 
 - LICENSE, README.md, CHANGELOG.md files permissions
 - Move **fairy.sh** file to bash directory
+- README.md file
 
 ## [0.0.1] (September 24 2021)
 

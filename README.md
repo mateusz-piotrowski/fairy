@@ -12,13 +12,20 @@ The project contains a little help from a fairy to detect the cause of the issue
 
 - macOS
 
-## Installation
+## Execution
 
-Run the following command from the Terminal app to start setup.
+1. Close repository:
 
 ```bash
-./fairy.sh
+$ git clone git@github.com:mateusz-piotrowski/fairy.git
 ```
+
+2. Run the following command from the Terminal app to run **fairy** application written in Bash:
+
+```bash
+./bash/fairy.sh
+```
+
 ## Contributor
 
 Mateusz Piotrowski
