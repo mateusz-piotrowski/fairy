@@ -5,6 +5,7 @@
 **Added :**
 - [Bash version] Header
 - [Bash version] Colorizing
+- **fairy.c** in C Programming Language
 
 ## [0.0.2] (September 25 2021)
 
