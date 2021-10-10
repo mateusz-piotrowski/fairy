@@ -1,5 +1,20 @@
 #!/bin/bash
 
+title () {
+  echo ""
+  echo "# = = = = = = = = = = = = "
+  printf "#$(tput setaf 3) Hello Developer,$(tput sgr0)\n"
+  printf "#$(tput setaf 3) I am your lucky Fairy,$(tput sgr0)\n"
+  printf "#$(tput setaf 3) Probably you have issue with your project,$(tput sgr0)\n"
+  printf "#$(tput setaf 3) I will help you find a cause of a bug.$(tput sgr0)\n"
+  echo "# = = = = = = = = = = = = "
+  echo ""
+  printf "#$(tput setaf 6) Your lucky advice is:$(tput sgr0)\n"
+  echo ""
+}
+
+title
+
 causes[1]="It works on my machine."
 causes[2]="Where were you when the program blew up?"
 causes[3]="Why do you want to do it that way?"
@@ -23,4 +38,5 @@ causes[20]="That's weird..."
 
 random_cause=$(($RANDOM % 20 + 1 ))
 
-echo ${causes[$random_cause]}
+printf "$(tput setaf 2)  ${causes[$random_cause]}$(tput sgr0)\n"
+echo ""

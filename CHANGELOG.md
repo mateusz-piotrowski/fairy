@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.3] (October 10 2021)
+
+**Added :**
+- [Bash version] Header
+- [Bash version] Colorizing
+
 ## [0.0.2] (September 25 2021)
 
 **Added :**
