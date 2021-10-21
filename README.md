@@ -36,6 +36,12 @@ clang fairy.c -o fairy
 ./fairy
 ```
 
+4. Run the following command from the Terminal app to run **fairy** application written in **Python Programming Language**:
+
+```bash
+python fairy.py
+```
+
 ## Contributor
 
 Mateusz Piotrowski

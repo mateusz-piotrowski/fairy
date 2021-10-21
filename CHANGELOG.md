@@ -1,8 +1,19 @@
 # The Changelog
 
+## [0.0.4] (October 21 2021)
+
+**Added :**
+
+- **fairy.py** in Python Programming Language
+
+**Updated :**
+
+- README.md file
+
 ## [0.0.3] (October 10 2021)
 
 **Added :**
+
 - [Bash version] Header
 - [Bash version] Colorizing
 - **fairy.c** in C Programming Language
