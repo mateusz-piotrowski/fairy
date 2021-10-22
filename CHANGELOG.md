@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.5] (October 22 2021)
+
+**Added :**
+
+- colorizing in **fairy.c** file
+
 ## [0.0.4] (October 21 2021)
 
 **Added :**

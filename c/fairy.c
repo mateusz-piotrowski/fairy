@@ -2,17 +2,22 @@
 #include <stdlib.h>
 #include <time.h>
 
+#define green_color  "\x1b[32m"
+#define yellow_color "\x1b[33m"
+#define cyan_color   "\x1b[36m"
+#define color_reset  "\x1b[0m"
+
 void header()
   {
     printf("\n");
     printf("# = = = = = = = = = = = = \n");
-    printf("# Hello Developer,\n");
-    printf("# I am your lucky Fairy,\n");
-    printf("# Probably you have issue with your project,\n");
-    printf("# I will help you find a cause of a bug.\n");
+    printf("# " yellow_color "Hello Developer,\n" color_reset);
+    printf("# " yellow_color "I am your lucky Fairy,\n" color_reset);
+    printf("# " yellow_color "Probably you have issue with your project,\n" color_reset);
+    printf("# " yellow_color "I will help you find a cause of a bug.\n" color_reset);
     printf("# = = = = = = = = = = = = \n");
     printf("\n");
-    printf("# Your lucky advice is:\n");
+    printf("# " cyan_color "Your lucky advice is:\n" color_reset);
   }
 
 int main()
@@ -48,7 +53,7 @@ int main()
 
   printf("\n");
   int choice = rand() % 20;
-  printf("  %s\n", causes[choice]);
+  printf(green_color "  %s\n" color_reset, causes[choice]);
   printf("\n");
 
   return 0;
